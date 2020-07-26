@@ -8,7 +8,7 @@
 #define LSIZ 128 
 #define RSIZ 10 
 pid_t pid[2];
-int i;
+int i,g;
 int f=1,k=0;
 void sig_handler(int signum)
 {
